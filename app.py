@@ -27,7 +27,7 @@ st.set_page_config(
 # kali user geser slider (kalau nggak di-cache, bakal lambat banget)
 def load_model():
     model = joblib.load('model_rf.pkl')
-    return model, scaler
+    return model
 
 model = load_model()
 
